@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url("https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?size=626&ext=jpg");
+    background-size: cover;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+button{
+    font-weight: 500px;
+    font-size: 16px;
+    color:#edf0f1;
+    cursor: pointer;
+    padding: 9px 25px;
+    background: rgba(0,136,169,1);
+    border: 1px solid white;
+    border-radius: 60px;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background: rgba(0,136,169,0.5);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.logo{
+    cursor:pointer;
+    width: 10%;
+    margin-left: 70px;
+    color: blanchedalmond;
+    background-image: url("");
+}
+ul{
+    list-style: none;
+}
+
+.li{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 365px;
+    padding-right: 5cm;
+    padding-left: 5cm; 
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    background: rgb(81, 81, 218);
+    margin-bottom: 40px;
+}
+.li1{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center; 
+    height: 1cm;
+    background: rgb(81, 81, 218);
+
+}
+img{
+    margin-top: 20px;
+    border-width: 2cm;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 10px solid black;
+    border-radius:40px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVlG9mYPLZGqa042niIJPYq-Xs0BYUB6-eaA&usqp=CAU");
+    
+    
+}
+
+
+
+
